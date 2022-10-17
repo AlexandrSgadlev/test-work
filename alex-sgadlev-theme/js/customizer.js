@@ -79,7 +79,6 @@
 	
 	
 	$( window ).resize(function() {
-		console.log($( window ).width());
 		if($( window ).width() <= '767'){
 			$('#site-navigation .header-menu').width('0%');
 			$('#site-navigation .header-menu').hide();
